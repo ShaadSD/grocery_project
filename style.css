@@ -138,3 +138,20 @@
   font-size: 2rem;
   font-weight: bold;
 }
+.card {
+  height: 100%; /* Ensure cards are equal in height */
+}
+
+.card-img-top {
+  height: 200px; /* Uniform image height */
+  object-fit: cover; /* Ensure the image fills the space proportionally */
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#card-2{
+  
+}
